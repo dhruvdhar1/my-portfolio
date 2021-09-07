@@ -58,8 +58,8 @@
         display: flex;
         height: 270px;
         padding-left: 50px;
-        padding-top: 60px;
-        background-image: url("/assets/ss-bg2.jpg");
+        padding-top: 70px;
+        background-image: url("https://dhruvdhar1.github.io/my-portfolio/assets/ss-bg2.jpg");
         background-repeat: no-repeat;
     } 
 }
@@ -68,19 +68,19 @@
         display: flex;
         height: 320px;
         padding-left: 50px;
-        padding-top: 60px;
-        background-image: url("/assets/bb.png");
-        /* background-repeat: no-repeat; */
+        padding-top: 70px;
+        background-image: url("https://dhruvdhar1.github.io/my-portfolio/assets/ss-bg2.jpg");
+        background-repeat: no-repeat;
     } 
 }
 @media screen and (min-width: 1680px) {
     .profile-pic-container {
         display: flex;
-        height: 420px;
+        height: 440px;
         padding-left: 50px;
-        padding-top: 60px;
-        background-image: url("/assets/bb.png");
-        /* background-repeat: no-repeat; */
+        padding-top: 70px;
+        background-image: url("https://dhruvdhar1.github.io/my-portfolio/assets/ss-bg2.jpg");
+        background-repeat: no-repeat;
     } 
 }
 .profile-pic-section {
@@ -91,7 +91,7 @@
         width: 250px;
         height: 250px;
         border-radius: 100%;
-        animation: fadeIn;
+        animation: pulse;
         animation-duration: 1s;
         animation-delay: 0.5s;
     }
@@ -101,7 +101,7 @@
         width: 300px;
         height: 300px;
         border-radius: 100%;
-        animation: fadeIn;
+        animation: pulse;
         animation-duration: 1s;
         animation-delay: 0.5s;
     }
@@ -111,7 +111,7 @@
         width: 400px;
         height: 400px;
         border-radius: 100%;
-        animation: fadeIn;
+        animation: pulse;
         animation-duration: 1s;
         animation-delay: 0.5s;
     }
