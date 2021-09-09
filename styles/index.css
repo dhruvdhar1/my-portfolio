@@ -149,7 +149,7 @@
 }
 .second-section {
     display: flex;
-    height: 460px;
+    height: 400px;
 }
 .left-section {
     display: flex;
@@ -206,4 +206,30 @@
 .resume-button {
     text-decoration: none;
     color: rgb(235, 227, 227);
+}
+.my-project-container {
+    display: flex;
+    flex-direction: column;
+}
+.my-project-description{
+    margin-left: 65px;
+    padding-top: 10px;
+    color: rgb(90, 87, 85);
+    font-size: 20px;
+    text-align: justify;
+    width: 90%;
+}
+.half-line-break {
+    height: 8px;
+}
+.lang-used {
+    color: rgb(58, 57, 57)
+}
+.tech-used {
+    display: inline-block;
+    color: seashell;
+    margin-right: 10px;
+    padding: 3px 8px 3px 8px;
+    background-color: rgb(101, 134, 233);
+    border-radius: 15%/50%;
 }
